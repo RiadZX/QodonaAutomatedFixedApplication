@@ -1,15 +1,16 @@
 package assignment2;
 
+import java.util.Scanner;
 import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        String file1 = "./src/assignment2/BugbanExample.json";
-        String file2 = "./src/assignment2/BugbanExample2.json";
-
-        String output1 = "./src/assignment2/BugbanExampleOutput1.json";
-        String output2 = "./src/assignment2/BugbanExampleOutput2.json";
-        String output3 = "./src/assignment2/BugbanExampleOutput3.json";
+        Scanner scanner = new Scanner(System.in);
+        String file1 = scanner.nextLine();
+        String file2 = scanner.nextLine();
+        String output1 = scanner.nextLine();
+        String output2 = scanner.nextLine();
+        String output3 = scanner.nextLine();
 
         Set<Problem> x;
         Set<Problem> y;

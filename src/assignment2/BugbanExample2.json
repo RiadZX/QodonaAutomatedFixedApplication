@@ -1,23 +1,23 @@
 {
   "problems": [
     {
-      "hash": "4308iv8",
+      "hash": "b",
       "data": [
-        "CWE-476"
+        "2"
       ]
     },
     {
-      "hash": "3b9ba51",
+      "hash": "d",
       "data": [
         "VulnerabilityCheck"
       ]
     },
     {
-      "hash": "5432",
+      "hash": "b",
       "data": [
-        "asus",
-        "dell",
-        "logitech"
+        "4",
+        "5",
+        "3"
       ]
     }
   ]

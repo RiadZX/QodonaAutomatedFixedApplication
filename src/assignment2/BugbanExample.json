@@ -1,17 +1,23 @@
 {
   "problems": [
     {
-      "hash": "12345",
+      "hash": "a",
       "data": [
-        "NullPointerCheck"
+        "1"
       ]
     },
     {
-      "hash": "5432",
+      "hash": "c",
       "data": [
-        "dell",
-        "asus",
-        "logitech"
+        "2"
+      ]
+    },
+    {
+      "hash": "b",
+      "data": [
+        "3",
+        "4",
+        "5"
       ]
     }
   ]
