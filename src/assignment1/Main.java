@@ -12,7 +12,21 @@ public class Main {
         Solution(words);
     }
 
+    private static List<String> sortWords(List<String> words) {
+        //remove the %i from each word, and sort based on the i.
+        List<String> sortedWords = new ArrayList<>();
+        for(int i = 0; i < words.size(); i++) {
+            sortedWords.add("");
+        }
+        for(String word : words) {
+            int i = Integer.parseInt(word.split("%")[1]);
+            sortedWords.set(i, word.split("%")[0]);
+        }
+        return sortedWords;
+    }
+
     public static void Solution(List<String> words) {
+        words = sortWords(words);
         List<Vertex> graph = LexicographicalOrder(words);
         for(Vertex v : graph) {
             if(hasCycles(v, new HashSet<>(), new HashSet<>())) {

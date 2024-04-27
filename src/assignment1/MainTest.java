@@ -13,10 +13,10 @@ class MainTest {
     @Test
     void lexicographicalOrder() {
         List<String> words = new ArrayList<>();
-        words.add("alex");
-        words.add("dwa");
-        words.add("as");
-        words.add("wdaffff");
+        words.add("alex%0");
+        words.add("dwa%3");
+        words.add("as%1");
+        words.add("wdaffff%2");
         Main.Solution(words);
     }
 }
