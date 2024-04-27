@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "hash": {
+            "type": "string",
+            "description": "Hash computed based on problem data"
+          },
+          "data": {
+            "type": "array",
+            "description": "Not ordered set of problem properties as strings: file, message, location in file, severity, check id, etc",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": ["hash", "data"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["problems"],
+  "additionalProperties": false
+}

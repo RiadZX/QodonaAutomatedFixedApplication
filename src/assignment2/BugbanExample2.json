@@ -1,0 +1,24 @@
+{
+  "problems": [
+    {
+      "hash": "4308iv8",
+      "data": [
+        "CWE-476"
+      ]
+    },
+    {
+      "hash": "3b9ba51",
+      "data": [
+        "VulnerabilityCheck"
+      ]
+    },
+    {
+      "hash": "5432",
+      "data": [
+        "asus",
+        "dell",
+        "logitech"
+      ]
+    }
+  ]
+}
